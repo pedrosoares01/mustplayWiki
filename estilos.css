@@ -47,9 +47,8 @@
     text-align: justify;
     padding: 10px;
     opacity: 0.8;
-    margin-top: 20px;
+    margin-top: 20px
   }
-
   .navbar {
   width: 5rem;
   height: 100vh;
@@ -112,6 +111,7 @@ footer {
     background-color: #252424;
     bottom: 0;
     right: 0;
+    left: 0;
     color: #d7e93b;
     border-radius: 13px;
     width: 1920px;
@@ -135,5 +135,11 @@ footer {
   main > p {
     font-size: 25px;
   }
-
-  
+  #foto{
+    float:left; 
+    width: 220px;
+    padding-right: 8px;
+    height: 110px;
+    margin-top: 12px;
+    border-radius: 17px;
+  }  
