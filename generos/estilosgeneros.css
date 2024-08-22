@@ -1,0 +1,37 @@
+html, body {
+background-color: #bebebe;
+}
+h1 {
+font-size: 300%;
+color: #d7e93b;
+}
+
+section {
+background-color: #252424;
+border-radius: 15px;
+}
+section p{
+font-size: 150%;
+color: rgb(255, 255, 255);
+margin-left: 2%;
+padding-bottom: 2%;
+}
+section h2{
+padding-top: 1%;
+margin: 2%;
+font-size: 200%;
+color: #d7e93b;
+}
+footer {
+background-color: #252424;
+bottom: 0;
+right: 0;
+left: 0;
+color: #d7e93b;
+border-radius: 13px;
+width: 99%;
+z-index: 4;
+padding-bottom: 1%;
+padding-top: 0.25%;
+padding-left: 1%;
+}
