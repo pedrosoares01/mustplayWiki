@@ -35,3 +35,13 @@ padding-bottom: 1%;
 padding-top: 0.25%;
 padding-left: 1%;
 }
+.foto {
+    float: right;
+    margin-top: 0.1%;
+    margin-left: 20px;
+    opacity: 1.0;
+    scale: 1;
+    border-radius: 13px;
+    height: 3%;
+    width: 20%;
+}
