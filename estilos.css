@@ -35,6 +35,8 @@
       font-size: 15px;
       background-color: #252424;
       border-radius: 13px;
+      position: relative;
+      margin-left: 5%;
   }
   
   main {
@@ -56,6 +58,7 @@
   background-color: var(--bg-primary);
   transition: width 200ms ease;
   z-index: 3;
+  bottom :0;
 }
 
 .navbar-nav {
@@ -107,15 +110,13 @@
 }
   
 footer {
-    position: absolute;
+
     background-color: #252424;
-    bottom: 0;
-    right: 0;
-    left: 0;
     color: #d7e93b;
     border-radius: 13px;
     width: 1920px;
-    z-index: 4;
+    z-index: 99;
+    margin-left: 2%;
 }
 
   .titulo {
@@ -143,3 +144,11 @@ footer {
     margin-top: 12px;
     border-radius: 17px;
   }  
+  #easter-egg{
+    transform:  scale(0.2);
+    display: relative;
+    margin-right: 1%
+  }
+#easter-egg:hover{
+  visibility: visible;
+}
