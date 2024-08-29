@@ -3,8 +3,6 @@
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
-  --bg-secondary: #141418;
-  --transition-speed: 600ms;
 }
 
   
@@ -40,7 +38,7 @@
   main {
     color: black;
     background-color: #bebebe;
-    width: 86.9572%;
+    width: 86.9%;
     margin-left: 150px;
     margin-right: auto;
     border-radius: 10px;
@@ -85,7 +83,7 @@
 .nav-link svg {
   min-width: 2rem;
   margin: auto 1.5rem;
-  padding-top: 52.5589764px;
+  padding-top: 52px;
 }
 
 .nav-link:hover {
@@ -143,3 +141,20 @@ footer {
     margin-top: 12px;
     border-radius: 17px;
   }  
+
+  .botao-menu {
+    display: none;
+  }
+
+  @media (max-width: 540px) {
+    .botao-menu {
+      display: flex;
+      margin-right: auto;
+      margin-left: 0.64rem;
+      padding-top: 10px;
+    }
+
+    .navbar {
+      display: none;
+    }
+  }
