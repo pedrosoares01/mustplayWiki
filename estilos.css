@@ -114,10 +114,13 @@ footer {
   background-color: #252424;
   color: #d7e93b;
   border-radius: 13px;
-  width: 100%;
+  width: 96%;
   box-sizing: border-box;
-  z-index: 999;
-  padding-left: 50px;
+  z-index: 999; 
+  margin-left: 4%;
+  font-size: 18px;
+  margin-bottom: -7px;
+  margin-top: 20px;
 }
 
   .titulo {
