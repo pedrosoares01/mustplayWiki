@@ -4,45 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MustplayWiki</title>
-    <link rel="stylesheet" href="../generos/estilosgeneros.css">
+    <link rel="stylesheet" href="estilosgeneros.css">
 </head>
 <body>
-    <h1>Roguelikes</h1>
-    <h2>Enter The Gungeon</h2>
-    <p>Enter The Gungeon é um dos melhores de seu gênero. Com chefes únicos e
-        desafiadores e salas dominadas por um bullet hell, sua gameplay e
-        mapa se baseiam em andares, pelos quais o jogador vai descendo e
-        adentrando no Balabirinto cada vez mais.
-    </p>
-    <h2>Dead Cells</h2>
-    <p>
-        Com um combate desafiador e extremamente marcante para qualquer um que jogue,
-        Dead Cells é, possivelmente, um dos jogos mais viciantes apresentados aqui. A
-        imensa variedade de armas e seus tipos, inimigos, mutações, estilos de jogo
-        e caminhos para tomar até o chefe final, torna toda run única. E embora não 
-        possua história praticamente nenhuma, sua gameplay compensa e muito com
-        tamanha qualidade!
-    </p>
-    <h2>Slay The Spire</h2>
-    <p>
-        Slay The Spire é o já icônico e renomado jogo de cartas que inspirou tantas outras
-        aclamadas obras. Mesmo sendo um pouco frustrante por não haver quase evolução nenhuma de
-        uma run para outra, ele consegue te motivar a tentar mais uma vez, após ter aprendido
-        algo novo e ganhado experiência na última tentativa! Com certeza é um jogo indispensável
-        para qualquer amante de jogos de turno.
-    </p>
-    <h2>Hades</h2>
-    <p>
-        Hades é incrível. Provavelmente o roguelite que mais furou a bolha desse gênero, que
-        é, inegavelmente, bem nichado. Assim como Baldur's Gate III fez com RPGs de turno, ou
-        Elden Ring fez com Souslikes, Hades é amado até por quem não gosta desse estilo de
-        jogo! Com uma história lindíssima e completa e uma gameplay extremamente viciante de
-        hack 'n' slash e variados ambientes, esse game tem um belo motivo para ser
-        um dos mais populares roguelites.
-    </p>
-    <h2>Inscryption</h2>
-    <p>
-        
-    </p>
+    <header class="montserrat">
+        <img id="logo" src="../imgs/logo.jpg">
+        <h1>mustplayWIKI</h1>
+        <p>Play before you die</p>
+    </header>
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li>
+                <a href="../index.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/>
+                    </svg>
+                    <span class="link-text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="fps.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path d="M528 56c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 8L32 64C14.3 64 0 78.3 0 96L0 208c0 17.7 14.3 32 32 32l10 0c20.8 0 36.1 19.6 31 39.8L33 440.2c-2.4 9.6-.2 19.7 5.8 27.5S54.1 480 64 480l96 0c14.7 0 27.5-10 31-24.2L217 352l104.5 0c23.7 0 44.8-14.9 52.7-37.2L400.9 240l31.1 0c8.5 0 16.6-3.4 22.6-9.4L477.3 208l66.7 0c17.7 0 32-14.3 32-32l0-80c0-17.7-14.3-32-32-32l-16 0 0-8zM321.4 304L229 304l16-64 105 0-21 58.7c-1.1 3.2-4.2 5.3-7.5 5.3zM80 128l384 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L80 160c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
+                    </svg>
+                    <span class="link-text">FPS</span>
+                </a>
+            </li>
+            <li>
+                <a href="metroidvania.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path d="M0 80l0 48c0 17.7 14.3 32 32 32l16 0 48 0 0-80c0-26.5-21.5-48-48-48S0 53.5 0 80zM112 32c10 13.4 16 30 16 48l0 304c0 35.3 28.7 64 64 64s64-28.7 64-64l0-5.3c0-32.4 26.3-58.7 58.7-58.7L480 320l0-192c0-53-43-96-96-96L112 32zM464 480c61.9 0 112-50.1 112-112c0-8.8-7.2-16-16-16l-245.3 0c-14.7 0-26.7 11.9-26.7 26.7l0 5.3c0 53-43 96-96 96l176 0 96 0z"/>
+                    </svg>
+                    <span class="link-text">Metroidvanias</span>
+                </a>
+            </li>
+            <li>
+                <a href="plataforma.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z"/>
+                    </svg>
+                    <span class="link-text">Plataformas</span>
+                </a>
+            </li>
+            <li>
+                <a href="puzzle.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M192 104.8c0-9.2-5.8-17.3-13.2-22.8C167.2 73.3 160 61.3 160 48c0-26.5 28.7-48 64-48s64 21.5 64 48c0 13.3-7.2 25.3-18.8 34c-7.4 5.5-13.2 13.6-13.2 22.8c0 12.8 10.4 23.2 23.2 23.2l56.8 0c26.5 0 48 21.5 48 48l0 56.8c0 12.8 10.4 23.2 23.2 23.2c9.2 0 17.3-5.8 22.8-13.2c8.7-11.6 20.7-18.8 34-18.8c26.5 0 48 28.7 48 64s-21.5 64-48 64c-13.3 0-25.3-7.2-34-18.8c-5.5-7.4-13.6-13.2-22.8-13.2c-12.8 0-23.2 10.4-23.2 23.2L384 464c0 26.5-21.5 48-48 48l-56.8 0c-12.8 0-23.2-10.4-23.2-23.2c0-9.2 5.8-17.3 13.2-22.8c11.6-8.7 18.8-20.7 18.8-34c0-26.5-28.7-48-64-48s-64 21.5-64 48c0 13.3 7.2 25.3 18.8 34c7.4 5.5 13.2 13.6 13.2 22.8c0 12.8-10.4 23.2-23.2 23.2L48 512c-26.5 0-48-21.5-48-48L0 343.2C0 330.4 10.4 320 23.2 320c9.2 0 17.3 5.8 22.8 13.2C54.7 344.8 66.7 352 80 352c26.5 0 48-28.7 48-64s-21.5-64-48-64c-13.3 0-25.3 7.2-34 18.8C40.5 250.2 32.4 256 23.2 256C10.4 256 0 245.6 0 232.8L0 176c0-26.5 21.5-48 48-48l120.8 0c12.8 0 23.2-10.4 23.2-23.2z"/>
+                    </svg>
+                    <span class="link-text">Puzzles</span>
+                </a>
+            </li>
+            <li>
+                <a href="soulslike.html" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0z"/>
+                    </svg>
+                    <span class="link-text">Soulslikes</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Roguelikes</h1>
+        <section>
+            <h2>Enter The Gungeon</h2>
+            <p>
+                Enter The Gungeon é um dos melhores de seu gênero. Com chefes únicos e
+                desafiadores e salas dominadas por um bullet hell, sua gameplay e
+                mapa se baseiam em andares, pelos quais o jogador vai descendo e
+                adentrando no Balabirinto cada vez mais.
+            </p>
+        </section>
+        <section>
+            <h2>Dead Cells</h2>
+            <p>
+                Com um combate desafiador e extremamente marcante para qualquer um que jogue,
+                Dead Cells é, possivelmente, um dos jogos mais viciantes apresentados aqui. A
+                imensa variedade de armas e seus tipos, inimigos, mutações, estilos de jogo
+                e caminhos para tomar até o chefe final, torna toda run única. E embora não 
+                possua história praticamente nenhuma, sua gameplay compensa e muito com
+                tamanha qualidade!
+            </p>
+        </section>
+        <section>
+            <h2>Slay The Spire</h2>
+            <p>
+                Slay The Spire é o já icônico e renomado jogo de cartas que inspirou tantas outras
+                aclamadas obras. Mesmo sendo um pouco frustrante por não haver quase evolução nenhuma de
+                uma run para outra, ele consegue te motivar a tentar mais uma vez, após ter aprendido
+                algo novo e ganhado experiência na última tentativa! Com certeza é um jogo indispensável
+                para qualquer amante de jogos de turno.
+            </p>
+        </section>
+        <section>
+            <h2>Hades</h2>
+            <p>
+                Provavelmente o roguelite que mais furou a bolha desse gênero, que
+                é, inegavelmente, bem nichado. Assim como Baldur's Gate III fez com RPGs de turno, ou
+                Elden Ring fez com Souslikes, Hades é amado até por quem não gosta desse estilo de
+                jogo! Com uma história lindíssima e completa e uma gameplay extremamente viciante de
+                hack 'n' slash e variados ambientes, esse game tem um belo motivo para ser
+                um dos mais populares roguelites.
+            </p>
+        </section>
+        <section>
+            <h2>Inscryption</h2>
+            <p>
+                
+            </p>
+        </section>
+    </main>
+    <footer>
+        <h3 class="creditos">Todos os Direitos Reservados para:</h3>
+        <ul class="creditos">
+            <li>Pedro Peixoto Saraiva;</li>
+            <li>Pedro Soares Souto;</li>
+            <li>Théo Fernandes Campos Silveira.</li>
+            <li><a href="../creditos.html" target="_blank" id="pag-creditos">Saiba Mais</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
