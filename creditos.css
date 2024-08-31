@@ -1,0 +1,67 @@
+:root {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 30px;
+}
+
+header h1 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 3rem;
+    padding-left: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+#grid-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0 2em;
+}
+
+#grid-cred1 {
+    grid-area: 1 / 1 / 3 / 3;
+    border: 7px solid #000;
+    padding: 110px 10px;
+    border-radius: 30px;
+    box-shadow: -6px 8px 14px 4px #00000081;
+}
+
+#grid-cred2 {
+    grid-area: 1 / 3 / 3 / 4;
+    border: 7px solid #000;
+    padding: 110px 10px;
+    border-radius: 30px;
+    box-shadow: 0 10px 14px 3px #00000081;
+}
+
+#grid-cred3 {
+    grid-area: 1 / 4 / 3 / 6;
+    border: 7px solid #000;
+    padding: 110px 10px;
+    border-radius: 30px;
+    box-shadow: 6px 8px 14px 4px #00000081;
+}
+
+#logo {
+    width: 8%;
+    left: 340px;
+    top: 12px;
+}
+
+section li {
+    font-size: 20px;
+    padding-right: 15px;
+}
