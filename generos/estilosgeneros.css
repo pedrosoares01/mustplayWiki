@@ -4,7 +4,7 @@
     font-weight: 400;
     font-style: normal;
     padding: 20px;
-    --link-creditos: rgb(113, 138, 252);
+    --links: rgb(113, 138, 252);
 }
 
 html, body {
@@ -19,6 +19,99 @@ h1 {
 section {
     background-color: #252424;
     border-radius: 15px;
+}
+
+em {
+    color: rgb(230, 64, 91);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+article {
+    display: none;
+    background-color: #252424;
+    color: #fff;
+    width: 450px;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 20px 0;
+    border: 3px solid white;
+    z-index: 1;
+    animation: mostrararticle 0.3s ease-in 0s forwards;
+    position: absolute;
+}
+
+@keyframes mostrararticle {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+article#bullet-hell {
+    transform: translateX(1350px) translateY(-380px);
+}
+
+article#run-1 {
+    transform: translateX(110px) translateY(-330px);
+}
+
+article#run-2 {
+    transform: translateX(490px) translateY(-375px);
+}
+
+article#rpg {
+    transform: translateX(125px) translateY(-470px);
+}
+
+article#dungeon {
+    transform: translateX(100px) translateY(-335px);
+}
+
+article#boss {
+    transform: translateX(290px) translateY(-425px);
+}
+
+article#debut {
+    transform: translateX(730px) translateY(-426px);
+}
+
+article#tga {
+    transform: translateX(980px) translateY(-426px);
+}
+
+article#dash-1 {
+    transform: translateX(1080px) translateY(-160%);
+}
+
+article#parry {
+    transform: translateX(460px) translateY(-420px);
+}
+
+article#dash-2 {
+    transform: translateX(540px) translateY(-375px);
+}
+
+article#timing {
+    transform: translateX(575px) translateY(-380px);
+}
+
+article#remake {
+    transform: translateX(490px) translateY(-426px);
+}
+
+article#dash {
+    transform: translateX(700px) translateY(-380px);
+}
+
+article#wall-jump {
+    transform: translateX(800px) translateY(-425px);
+}
+
+article#boomer-shooter {
+    transform: translateX(1360px) translateY(-470px);
+}
+
+article a {
+    color: var(--links);
 }
 
 section p{
@@ -84,7 +177,7 @@ footer {
 }
 
 header {
-    z-index: 1;
+    z-index: 0;
     opacity: 0.8;
     color: #d7e93b;
     font-size: 15px;
@@ -155,11 +248,11 @@ main {
 }
 
 #pag-creditos {
-    color: var(--link-creditos);
+    color: var(--links);
 }
   
 #pag-creditos:visited {
-    color: var(--link-creditos);
+    color: var(--links);
 }
   
 #pag-creditos:hover {

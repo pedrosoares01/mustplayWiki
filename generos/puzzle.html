@@ -10,7 +10,7 @@
 <body>
     <header class="montserrat">
         <img id="logo" src="../imgs/logo.jpg">
-        <h1>mustplayWIKI</h1>
+        <h1>MustplayWIKI</h1>
         <p>Play before you die</p>
     </header>
     <nav class="navbar">
@@ -71,22 +71,38 @@
             <h2>Cocoon</h2>
             <img class="foto_jogos" src="../imgs/cocoon.jpeg" alt="">
             <p>
-                Cocoon é um jogo de puzzle de 2023, ganhador de melhor Jogo Debut Indie
-                no The Game Awards. Nele, você controla um pequeno inseto andando por
+                Cocoon é um jogo de puzzle de 2023, ganhador de
+                <em onmouseover=mostrardebut() onmouseout=esconderdebut()>Melhor Jogo Debut Indie</em>
+                no <em onmouseover=mostrartga() onmouseout=escondertga()>The Game Awards</em>.
+                Nele, você controla um pequeno inseto andando por
                 diferentes mundos e resolvendo engimas. O jogo possui puzzles de dificuldade
-                equilibrada, alguns mais difíceis, outros mais fáceis, dinamizando a gameplay!
+                equilibrada, alguns mais difíceis, outros mais fáceis, dinamizando a jogabilidade!
                 Ele está disponível na Steam por R$67,99 e se encontra em todas as plataformas
                 principais.
             </p>
         </section>
+        <article id="debut" onmouseover=mostrardebut() onmouseout=esconderdebut()>
+            <p>
+                Categoria da Cerimônia do The Game Awards que premia o melhor primeiro jogo
+                de uma nova empresa Indie (independente), ou seja, empresas que acabaram de
+                lançar seu primeiro jogo.
+            </p>
+        </article>
+        <article id="tga" onmouseover=mostrartga() onmouseout=escondertga()>
+            <p>
+                Principal cerimônia de games atualmente. Com seu principal apresentador e fundador
+                sendo o renomado jornalista Geoff Keighley, tem uma duração aproximada de 3 horas,
+                ocorrendo no fim do ano, no íncio de Dezembro.
+            </p>
+        </article>
         <section>
             <h2>Inside</h2>
             <img class="foto_jogos" src="../imgs/inside.jpeg" alt="">
             <p>
                 Inside narra a historia de um garoto sem nome em busca de escapar de uma
-                sociedade distópica, dominada por mistério e experimentos maléficos. O
-                jogo custa aproximadamente R$ 7,40 na Steam,mas se encontra em todas as
-                plataformas principais.
+                sociedade distópica, dominada por mistério e experimentos maléficos, com
+                mecânicas que envolvem muito timing e precisão. O jogo custa aproximadamente
+                R$7,40 na Steam,mas se encontra em todas as plataformas principais.
             </p>
         </section>
         <section>
@@ -119,7 +135,7 @@
                 A Little To The Left é um jogo relaxante e belo de puzzle, que se baseia
                 principalmente em organização de itens em variados ambientes para concluir
                 as fases, separadas em capítulos. Com três DLCs de alta qualidade e
-                diferentes temas do jogo base, está disponível na Steam por R$42,99, e
+                temas diferentes do jogo base, está disponível na Steam por R$42,99, e
                 suas DLCs por R$29,99 e R$16,99, mas está em todas as plataformas principais.
             </p>
         </section>
@@ -133,5 +149,7 @@
             <li><a href="../creditos.html" target="_blank" id="pag-creditos">Saiba Mais</a></li>
         </ul>
     </footer>
+
+    <script src="puzzles.js"></script>
 </body>
 </html>

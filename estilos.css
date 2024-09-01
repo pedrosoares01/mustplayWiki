@@ -148,23 +148,6 @@ main > p {
   height: 110px;
   margin-top: 12px;
   border-radius: 17px;
-}  
-
-.botao-menu {
-  display: none;
-}
-
-@media (max-width: 540px) {
-  .botao-menu {
-    display: flex;
-    margin-right: auto;
-    margin-left: 0.64rem;
-    padding-top: 10px;
-  }
-
-  .navbar {
-    display: none;
-  }
 }
 
 #easter-egg {
@@ -218,4 +201,13 @@ main > p {
 dl {
   font-size: 1.5rem;
   line-height: 45px;
+}
+
+dt {
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+#foto {
+  padding-top: 8px;
 }

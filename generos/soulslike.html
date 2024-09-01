@@ -10,7 +10,7 @@
 <body>
     <header class="montserrat">
         <img id="logo" src="../imgs/logo.jpg">
-        <h1>mustplayWIKI</h1>
+        <h1>MustplayWIKI</h1>
         <p>Play before you die</p>
     </header>
     <nav class="navbar">
@@ -66,18 +66,33 @@
         </ul>
     </nav>    
     <main>
-        <h1>SOULSLIKES - SOULSBORNES</h1>
+        <h1>SOULSLIKES / SOULSBORNES</h1>
         <section>
             <h2>Elden Ring</h2>
             <img class="foto_jogos" src="../imgs/eldenring.webp" alt="">
             <p>
-                Elden Ring é um soulsborne com gráficos muito bonitos muito conteúdo
-                e uma história excelente. Desbrave as terras intermédias explorando castelos,
-                dungeons, enfrente bosses, dragões e se divirta com mais de 100 horas de
-                conteúdo. O jogo está diponível na steam por R$229, além de possuir uma DLC,
-                caso se interesse.
+                Elden Ring é um Soulsborne com belos gráficos, muito conteúdo e uma história
+                excelente. Desbrave as terras intermédias explorando castelos,
+                <em onmouseover=mostrardungeon() onmouseout=esconderdungeon()>dungeons</em>,
+                enfrente <em onmouseover=mostrarboss() onmouseout=esconderboss()>bosses</em>,
+                dragões e se divirta com mais de 100 horas de conteúdo. O jogo está disponível
+                na Steam por R$229, além de possuir uma DLC.
             </p>
         </section>
+        <article id="dungeon" onmouseover=mostrardungeon() onmouseout=esconderdungeon()>
+            <p>
+                Dungeon se traduz como masmorra, literalmente. Estas são câmaras fechadas,
+                normalmente com várias salas e um chefe no fim, que, quando derrotado, recompensa
+                o jogador.
+            </p>
+        </article>
+        <article id="boss" onmouseover=mostrarboss() onmouseout=esconderboss()>
+            <p>
+                A tradução direta para boss seria chefe, inimigos muitos fortes que geralmente
+                ficam no fim de uma certa área, além de serem únicos no jogo. Sua variação mini
+                ou subbosses também são fortes, mas geralmente são encontrados mais de uma vez. 
+            </p>
+        </article>
         <section>
             <h2>Trilogia Dark Souls</h2>
             <img class="foto_jogos" src="../imgs/darksouls.jpeg" alt="">
@@ -86,9 +101,9 @@
                 jogo possui vários bosses e uma história muito interessante, além
                 de muito conteúdo para explorar. Entretanto, diferente de Elden Ring,
                 esses jogos são apenas semi-mundo aberto, então terá que seguir um
-                caminho pré-determinado, mas ainda tem bastante exploração. Os três
+                caminho pré-determinado, nem sempre podendo explorar livremente. Os três
                 jogos estão diponíveis na Steam por R$557 mas é possível comprá-los
-                separadamente.
+                separadamente, em todas as plataformas principais.
             </p>
         </section>
         <section>
@@ -97,7 +112,8 @@
         <p>
             Sekiro se passa em um mundo de fantasia no japão antigo onde você é um shinobi
             que quer vingança. O jogo tem um foco em furtividade e exploração, mas tem um
-            combate excelente e muitos bosses. Ele esta diponível na Steam por R$274.
+            combate excelente e muitos bosses. Ele esta diponível na Steam por R$274,
+            mas pode ser encontrado em todas as plataformas principais.
         </p>
         </section>
         <section>
@@ -107,7 +123,7 @@
                 Bloodborne se passa em Yharnam, uma cidade que foi infectada por uma doença
                 e transformou os cidadãos em bestas, e você tem que sobreviver a elas. O
                 combate é parecido com o de Dark Souls, porém um pouco mais rápido. Ele está
-                disponível apenas para playstation 4.
+                disponível apenas para playstation 4, por, aproximadamente, R$130,00.
             </p>
         </section>
         
@@ -121,5 +137,7 @@
             <li><a href="../creditos.html" target="_blank" id="pag-creditos">Saiba Mais</a></li>
         </ul>
     </footer>
+
+    <script src="soulslikes.js"></script>
 </body>
 </html>
